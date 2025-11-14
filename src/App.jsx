@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar'
 import ChatPanel from './components/ChatPanel'
 import VoiceButton from './components/VoiceButton'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8081'
+const API_URL = import.meta.env.VITE_API_URL || 'https://project-hub-backend-assignment.onrender.com'
 
 export default function App() {
   const [selected, setSelected] = useState('requirements')  // Default selected section: Requirements
